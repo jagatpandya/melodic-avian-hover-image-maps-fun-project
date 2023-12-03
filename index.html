@@ -4,24 +4,26 @@
         <meta charset="UTF-8">
         <meta name="description" content="Melodic Avian Hover">
         <meta name="keywords" content="Melodic Avian Hover, HTML Image Maps">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Ravindra Mevada">
         <title>Melodic Avian Hover</title>
         <link rel="icon" href="src/images/favicon.png" type="image/png">
         <style>
-            html, body {
-                height: 100%;
-                margin: 0;
-            }
             body {
+                margin: 0;
+                background-image: linear-gradient(#a4e1eb, #bcdc93);
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-image: linear-gradient(#a4e1eb, #bcdc93);
+                height: 100vh;
                 overflow: hidden;
             }
-            #content {
-                position: relative; /* Stack Overflow Recommendation */
+            .image-container {
+                text-align: center;
+            }
+            .image-container img {
+                max-width: 100%;
+                height: auto;
             }
             .github-corner:hover .octo-arm {
 				animation: octocat-wave 560ms ease-in-out;
@@ -48,7 +50,7 @@
         </style>
     </head>
     <body>
-        <div id="content">
+        <div class="image-container">
             <img src="src/images/background.png" alt="Background" usemap="#image-map">
         </div>
         <audio id="european-green-woodpecker"><source src="src/sounds/european-green-woodpecker.mp3" type="audio/mpeg"></audio>
