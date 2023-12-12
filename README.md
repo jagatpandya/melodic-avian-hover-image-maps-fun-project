@@ -1,5 +1,5 @@
 # Melodic Avian Hover
-To listen to a specific bird sound, click on the background image (due to browser autoplay policies), and then hover the mouse pointer over the areas representing various bird species.
+To listen to a specific bird sound, click on the background image (due to browser autoplay policy), and then hover the mouse pointer over the areas representing various bird species.
 
 ![Screenshot](melodic-avian-hover.gif?raw=true)
 
