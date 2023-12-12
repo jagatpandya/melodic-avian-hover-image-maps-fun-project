@@ -29,6 +29,10 @@
                 height: 100%;
                 object-fit: contain;
             }
+            .image-container, .image {
+                -webkit-tap-highlight-color: transparent; /* Removes tap highlight on mobile devices */
+                outline: none; /* Removes default focus outline */
+            }
             /* Styles for smartphones (min-width: 320px, max-width: 480px) */
 		    @media (min-width: 320px) and (max-width: 480px) { 
                 .image-container {
@@ -101,7 +105,7 @@
         <audio id="grey-wagtail"><source src="src/sounds/grey-wagtail.mp3" type="audio/mpeg"></audio>
         <audio id="little-ringed-plover"><source src="src/sounds/little-ringed-plover.mp3" type="audio/mpeg"></audio>
         <audio id="common-moorhen"><source src="src/sounds/common-moorhen.mp3" type="audio/mpeg"></audio>
-        <!-- mapping circles on the background image -->
+        <!-- Mapping circles on the background image -->
         <map name="image-map">
             <area shape="circle" coords="93,132,55" title="European Green Woodpecker" alt="European Green Woodpecker" alt="European Green Woodpecker" onmouseover="playSound('european-green-woodpecker')" onmouseout="stopSound('european-green-woodpecker')">
             <area shape="circle" coords="192,96,36" title="Eurasian Blackcap" alt="Eurasian Blackcap" onmouseover="playSound('eurasian-blackcap')" onmouseout="stopSound('eurasian-blackcap')">
