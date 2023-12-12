@@ -9,22 +9,41 @@
         <title>Melodic Avian Hover</title>
         <link rel="icon" href="src/images/favicon.png" type="image/png">
         <style>
-            body {
+            html, body {
+                height: 100%;
                 margin: 0;
-                background-image: linear-gradient(#a4e1eb, #bcdc93);
+                padding: 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100vh;
-                overflow: hidden;
+                background-image: linear-gradient(#a4e1eb, #bcdc93);
             }
             .image-container {
-                text-align: center;
+                max-width: 1000px; 
+                width: 100%;
+                height: 80%;
+                overflow: hidden;
             }
-            .image-container img {
-                max-width: 100%;
-                height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
             }
+            /* Styles for smartphones (min-width: 320px, max-width: 480px) */
+		    @media (min-width: 320px) and (max-width: 480px) { 
+                .image-container {
+                    /* Adjusting max-width for smartphones - Tested on Samsung Galaxy A12 and Responsive Design Mode [Inspect Element (F12) tool] */
+                    max-width: 90%;
+                }
+            }
+		    /* Styles for tablets (min-width: 768px, max-width: 1024px) */
+            @media (min-width: 768px) and (max-width: 1024px) {
+                .image-container { 
+    				/* Adjusting max-width for tablets - Tested on Samsung Galaxy Tab A SM-T355Y and Responsive Design Mode [Inspect Element (F12) tool] */
+                    max-width: 90%; 
+                }
+            }
+            /* Github corner styling */
             .github-corner:hover .octo-arm {
 				animation: octocat-wave 560ms ease-in-out;
             }
@@ -51,7 +70,7 @@
     </head>
     <body>
         <div class="image-container">
-            <img src="src/images/background.png" alt="Background" usemap="#image-map">
+            <img src="src/images/background.png" alt="Birds Background" usemap="#image-map">
         </div>
         <audio id="european-green-woodpecker"><source src="src/sounds/european-green-woodpecker.mp3" type="audio/mpeg"></audio>
         <audio id="eurasian-blackcap"><source src="src/sounds/eurasian-blackcap.mp3" type="audio/mpeg"></audio>
