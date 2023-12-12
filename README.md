@@ -3,7 +3,8 @@ To listen to a specific bird sound, click on the background image (due to browse
 
 ![Screenshot](melodic-avian-hover.gif?raw=true)
 
-It is a simple image map, you can create using any image mapping tool with any shapes! just like this example!
+There are various image mapping tools available online that allow you to define clickable areas on an image. Choose one that suits your preferences.
+
 ![Screenshot](melodic-avian-hover-image-map.gif?raw=true)
 
 ![Badge](badges/badge-1.svg?raw=true&sanitize=true)&emsp;![Badge](badges/badge-2.svg?raw=true&sanitize=true)&emsp;![Badge](badges/badge-3.svg?raw=true&sanitize=true)
