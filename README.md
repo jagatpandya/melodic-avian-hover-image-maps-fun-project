@@ -1,7 +1,10 @@
 # Melodic Avian Hover
 To listen to a specific bird sound, click on the background image (due to browser autoplay policies), and then hover the mouse pointer over the areas representing various bird species.
 
-![Screenshot](songs-of-the-birds.gif?raw=true)
+![Screenshot](melodic-avian-hover.gif?raw=true)
+
+It is a simple image map, you can create using any image mapping tool with any shapes! just like this example!
+![Screenshot](melodic-avian-hover-image-map.gif?raw=true)
 
 ![Badge](badges/badge-1.svg?raw=true&sanitize=true)&emsp;![Badge](badges/badge-2.svg?raw=true&sanitize=true)&emsp;![Badge](badges/badge-3.svg?raw=true&sanitize=true)
 
